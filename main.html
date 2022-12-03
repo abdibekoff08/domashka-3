@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Main Page</title>
+    <style>
+        body {
+            background-image: url(../Domashka-3/images/bg.jpg);
+        }
+
+        h3 {
+            text-align: center;
+            color: rgb(36, 26, 26);
+            font-weight: 400;
+            font-size: 35px;
+        }
+        main {
+            width: 1400px;
+            height: 500px;
+            display: flex;
+            padding: 30px;
+            margin: 0 auto;
+        }
+        div {
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            text-shadow: 0 4px 8px #5a4a4a;
+        }
+        .table {
+            width: 60%;
+            margin-bottom: 20px;
+            border: 2px solid #b3a4a4;
+            border-collapse: collapse; 
+            margin-right: auto;
+            margin-left: auto; 
+            background: #fff;
+        }
+        .table th {
+            font-weight: bold;
+            padding: 5px;  
+            background: #efefef;
+            border: 1px solid #dddddd;
+        }
+
+        .table td {
+            border: 1px solid #dddddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Языки программирования</a>
+            <ul>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">C#</a></li>
+            </ul>
+        </li>
+        <li><a href="#">О нас</a></li>
+    </ul>
+
+    <h1>Популярные языки программирования и разработки</h1>
+    <main class="main">
+        <div class="content"><h3>HTML & CSS</h3>
+            <p>HTML и CSS формируют структуру сайта. HTML говорит, что обозначается на странице — заголовки, абзацы, картинки и так
+            далее, а CSS говорит, как это будет выглядеть: какие размеры должны быть у заголовков, какого они цвета, есть ли
+            подчёркивания и так далее.</p>
+        </div>
+        <div class="content">
+            <h3>JavaScript</h3>
+            <p>JavaScript — мультипарадигменный язык программирования. Поддерживает
+            объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript</p>
+        </div>
+        <div class="content">
+            <h3>Python</h3>
+            <p>высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением
+            памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на
+            обеспечение переносимости написанных на нём программ.</p>
+        </div>
+    </main>   
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Языки программирования</th>
+                <th>Популярность</th>
+                <th>Средняя зарплата</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML, CSS</td>
+                <td>70%</td>
+                <td>200-250 тысяч тенге</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>28%</td>
+                <td>300-1500 тысяч тенге</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>35%</td>
+                <td>250-2000 тысяч тенге</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>60%</td>
+                <td>300-800 тысяч тенге</td>
+            </tr>
+        </tbody>
+    </table>
+        
+</body>
+
+</html>
