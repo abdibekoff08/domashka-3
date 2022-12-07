@@ -74,3 +74,15 @@
 .content:last-child {
     background-color: rgb(105, 98, 98);
 }
+
+.next {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(182, 49, 49)
+}
+.next:hover {
+    color: #f90;
+}
+
